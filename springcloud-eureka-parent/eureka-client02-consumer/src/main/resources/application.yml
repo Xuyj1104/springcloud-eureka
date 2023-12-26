@@ -1,6 +1,7 @@
-spring:
-  application:
-    name: consumer-server
 
 server:
   port: 8099
+
+spring:
+  application:
+    name: consumer-server
