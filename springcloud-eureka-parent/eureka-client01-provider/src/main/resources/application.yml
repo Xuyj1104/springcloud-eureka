@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: provider-server
+
+server:
+  port: 8098
+
