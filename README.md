@@ -19,6 +19,13 @@ eureka一共有4部分配置
 
 1.server:eureka的服务端配置
 
+    eureka:
+        server:
+            #是否开启自我保护机制，默认true
+            enable-self-preservation: true
+            #清理间隔(单位毫秒，默认是60*1000)
+            eviction-interval-timer-in-ms: 60000
+
 2.client:eureka的客户端配置
 
 3.instance:eureka的实例配置
