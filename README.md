@@ -8,12 +8,13 @@
 
 1.将RestTemplate加载至spring容器；
 
-@Configuration
-public class RestTemplateConfig {
-    @Bean
-    public RestTemplate restTemplate() {
-        return new RestTemplate();
+    @Configuration
+    public class RestTemplateConfig {
+
+        @Bean
+        public RestTemplate restTemplate() {
+            return new RestTemplate();
+        }
     }
-}
 
 2.
