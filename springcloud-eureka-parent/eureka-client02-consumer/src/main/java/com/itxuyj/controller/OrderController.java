@@ -29,6 +29,6 @@ public class OrderController {
             2.注入Bean
             3.调用方法
          */
-        return  restTemplate.getForObject("http://localhost:8098/goods/findOne/"+id, Goods.class);
+        return restTemplate.getForObject("http://localhost:8667/goods/findOne/" + id, Goods.class);
     }
 }

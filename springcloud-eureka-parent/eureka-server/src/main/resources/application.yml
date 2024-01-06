@@ -18,8 +18,8 @@ eureka:
     hostname: localhost #主机名
 
   client:
-    service-url:
-      defaultZone: http://${eureka.instance.hostname}}:${server.port}/eureka  #eureka服务端地址，将来客户端使用该地址和eureka进行通信
+#    service-url:
+#      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka  #eureka服务端地址，将来客户端使用该地址和eureka进行通信
 
     register-with-eureka: false #是否将自己的路径 注册到eureka上. eureka server 不需要的，eureka provide client 需要
     fetch-registry: false #是否需要从eureka中抓取路径。 eureka server不需要的    eureka consumer client需要
